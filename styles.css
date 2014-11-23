@@ -1,0 +1,43 @@
+html, body { height: 100%; width: 100%; margin: 0; padding: 0; }
+#map{ margin: 0; padding: 0; }
+#searcher {
+    background: #fff;    opacity: 0.8;
+    bottom: 30px;
+    color: #444;
+    font-family: arial;
+    height: 330px;
+    left: 60px;
+    margin: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 70px;
+    width: 350px;
+    z-index: 40;
+}
+#HomeButton {
+	position: absolute;
+    top: 95px;
+    left: 20px;
+    z-index: 50;
+}
+#collapse-title {
+	background: #fff;    opacity: 0.8;
+    bottom: 30px;
+    color: #444;
+    font-family: arial;
+    height: 60px;
+    left: 60px;
+    margin: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    width: 350px;
+    z-index: 40;
+}
+.collapse-content {
+	display: none;
+}
+#champion-img {
+	margin-top: 20px
+}
+.esriViewPopup .gallery { margin: 0 auto !important; }
