@@ -65,6 +65,11 @@ define([
 
       this._zoomEnd = null;
     },
+    
+    //add method to update the data for clustering
+    updateData: function(newdata){
+    	this._clusterData = newdata || [];
+    },
 
     // override esri/layers/GraphicsLayer methods 
     _setMap: function(map, surface) {
